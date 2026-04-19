@@ -1,7 +1,12 @@
 [project]
-name = "cs2n-orcid-affiliation-resolver"
+name = "cs2n_orcid_affiliation_resolver"
 version = "0.0.0"
 requires-python = ">=3.11"
+dependencies = [
+    "pandas>=3.0.2",
+    "pyarrow>=23.0.1",
+    "rapidfuzz>=3.14.5",
+]
 
 [dependency-groups]
 dev = [
