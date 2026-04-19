@@ -1,0 +1,18 @@
+{
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "cs2n-orcid-affiliation-resolver-dev",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "jeff-hykin.better-dockerfile-syntax",
+        "ms-python.python",
+        "tamasfe.even-better-toml",
+        "nefrob.vscode-just-syntax",
+        "dvirtz.parquet-viewer",
+        "repreng.csv"
+      ]
+    }
+  }
+}

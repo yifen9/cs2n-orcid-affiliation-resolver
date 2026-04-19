@@ -1,0 +1,13 @@
+*.egg-info
+
+.pytest_cache
+.ruff_cache
+.venv
+
+__pycache__
+target
+
+/data
+/samples
+/site
+/.env.dev

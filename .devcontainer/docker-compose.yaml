@@ -1,0 +1,15 @@
+services:
+  cs2n-orcid-affiliation-resolver-dev:
+    image: ghcr.io/yifen9/cs2n-orcid-affiliation-resolver-dev
+    build:
+      context: ..
+      dockerfile: Dockerfile.dev
+    container_name: cs2n-orcid-affiliation-resolver-dev
+    working_dir: /workspace
+    volumes:
+      - "..:/workspace"
+    command: >
+      bash -lc "
+        just init &&
+        exec sleep infinity
+      "
